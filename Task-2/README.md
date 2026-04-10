@@ -45,7 +45,7 @@ usermod -aG wheel mangesh
 ```bash
 newgrp docker
 ```
- 
+---
 
 ### 1. Install Docker
 
