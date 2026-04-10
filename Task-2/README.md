@@ -40,8 +40,12 @@ Add user to the wheel group:
 
 ```bash
 usermod -aG wheel mangesh
- 
 ```
+
+```bash
+newgrp docker
+```
+ 
 
 ### 1. Install Docker
 
