@@ -167,7 +167,7 @@ docker build -t my-web-app .
 ### 9. Run Docker container
 
 ```bash
-docker run -d -p 8000:80 my-web-app
+docker run -d --name my-web-app -p 8000:80 my-web-app
 ```
 
 ---
